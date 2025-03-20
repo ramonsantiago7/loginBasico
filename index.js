@@ -17,8 +17,10 @@ function cadastrar(){
     } else if (nome == "marcos" && senha == "marcos2580") {
         window.location.href = "logins/marcos.html"
         
+    } else if (nome == "giovanna" && senha == "eusoulinda") {
+        window.location.href = "logins/giovanna.html"
+
     } else {
         alert("usuario ou senha incorretos!")
-
     }
 }
